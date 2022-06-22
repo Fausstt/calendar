@@ -1,0 +1,173 @@
+@charset "UTF-8";
+.body {
+  display: flex;
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 700px;
+  border: 1px solid;
+}
+.calendar__week {
+  display: flex;
+}
+.calendar__week__day {
+  font-size: 33.3333333333px;
+  width: 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.calendar__week__day--1::before {
+  content: "ВТ";
+}
+.calendar__week__day--2::before {
+  content: "СР";
+}
+.calendar__week__day--3::before {
+  content: "ЧТ";
+}
+.calendar__week__day--4::before {
+  content: "ПТ";
+}
+.calendar__week__day--5::before {
+  content: "СБ";
+}
+.calendar__week__day--6::before {
+  content: "ВС";
+}
+.calendar__week__day--7::before {
+  content: "ПН";
+}
+.calendar__data {
+  display: flex;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  font-size: 33.3333333333px;
+  background-color: #eee;
+  border: 1px solid #000;
+}
+.calendar__data:hover {
+  transform: translate(0, -20px);
+  background-color: palevioletred;
+}
+.calendar__data--num--1::before {
+  content: "1";
+}
+.calendar__data--num--2::before {
+  content: "2";
+}
+.calendar__data--num--3::before {
+  content: "3";
+}
+.calendar__data--num--4::before {
+  content: "4";
+}
+.calendar__data--num--5::before {
+  content: "5";
+}
+.calendar__data--num--6::before {
+  content: "6";
+}
+.calendar__data--num--7::before {
+  content: "7";
+}
+.calendar__data--num--8::before {
+  content: "8";
+}
+.calendar__data--num--9::before {
+  content: "9";
+}
+.calendar__data--num--10::before {
+  content: "10";
+}
+.calendar__data--num--11::before {
+  content: "11";
+}
+.calendar__data--num--12::before {
+  content: "12";
+}
+.calendar__data--num--13::before {
+  content: "13";
+}
+.calendar__data--num--14::before {
+  content: "14";
+}
+.calendar__data--num--15::before {
+  content: "15";
+}
+.calendar__data--num--16::before {
+  content: "16";
+}
+.calendar__data--num--17::before {
+  content: "17";
+}
+.calendar__data--num--18::before {
+  content: "18";
+}
+.calendar__data--num--19::before {
+  content: "19";
+}
+.calendar__data--num--20::before {
+  content: "20";
+}
+.calendar__data--num--21::before {
+  content: "21";
+}
+.calendar__data--num--22::before {
+  content: "22";
+}
+.calendar__data--num--23::before {
+  content: "23";
+}
+.calendar__data--num--24::before {
+  content: "24";
+}
+.calendar__data--num--25::before {
+  content: "25";
+}
+.calendar__data--num--26::before {
+  content: "26";
+}
+.calendar__data--num--27::before {
+  content: "27";
+}
+.calendar__data--num--28::before {
+  content: "28";
+}
+.calendar__data--num--29::before {
+  content: "29";
+}
+.calendar__data--num--30::before {
+  content: "30";
+}
+.calendar__data--num--31::before {
+  content: "31";
+}
+.calendar__data--30:nth-child(n+29) {
+  display: none;
+}
+.calendar__data--31:nth-child(n+29) {
+  display: none;
+}
+.calendar__data--32:nth-child(n+29) {
+  display: none;
+}
+.calendar__data--33:nth-child(n+29) {
+  display: none;
+}
+.calendar__data--1 {
+  margin-left: 600px;
+}
+.calendar__num {
+  margin: auto;
+}
+
+/*# sourceMappingURL=index.css.map */
